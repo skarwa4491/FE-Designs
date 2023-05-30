@@ -19,6 +19,7 @@ body {
   font-family: 'Inter', sans-serif;
   color: #343a40;
   border-bottom: solid 5px #087f5b;
+  background-color: #f8f9fa;
 }
 
 h1 {
@@ -35,6 +36,7 @@ h1 {
   background-color: #087f5b;
   color: #fff;
   font-weight: 500;
+  border-radius: 53px;
 }
 
 .btn--small {
@@ -96,6 +98,10 @@ header {
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
 }
 
+img {
+  border-radius: 12px;
+}
+
 .header-text-box {
   align-self: center;
 }
@@ -133,7 +139,8 @@ img {
 
   background-color: #087f5b;
   color: #fff;
-  padding: 24px
+  padding: 24px;
+  border-radius: 30px;
 }
 
 .testimonial-box {
@@ -155,6 +162,12 @@ img {
 /* CHAIRS */
 .chair-box {
   padding: 24px;
+}
+
+.chair img {
+
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
 }
 
 .chair {

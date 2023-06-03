@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px
+}
+
+.el--1 {
+    align-self: flex-start;
+    order: 1;
+}
+
+.el--5 {
+    align-self: stretch;
+}
+
+.el--6 {
+    order: -1
+}
+
+.el--2 {
+
+    /* default peoperties
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto; */
+    flex-basis: 200px;
+
+}

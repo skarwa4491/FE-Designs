@@ -1,0 +1,40 @@
+.author-img {
+    float: left;
+    margin-bottom: 20px;
+}
+
+.author {
+    margin-top: 10px;
+    margin-left: 20px;
+    float: left;
+}
+
+h1 {
+    float: left;
+}
+
+nav {
+    float: right;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+article {
+
+    width: 900px;
+    float: left;
+}
+
+aside {
+
+    float: right;
+    width: 300px;
+}
+
+footer {
+    clear: both;
+}

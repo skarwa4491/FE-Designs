@@ -1,0 +1,39 @@
+.main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.post-container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 15px
+}
+
+.related-posts {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    display: inline-block;
+}
+
+aside {
+    flex: 0 0 300px;
+    position: relative;
+}
+
+article {
+    flex: 1
+}
+
+.related-author {
+    margin-bottom: 0px;
+}
+
+.article-container {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 60px;
+    align-items: flex-start;
+}
